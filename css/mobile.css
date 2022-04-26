@@ -1,0 +1,156 @@
+@media (max-width: 991px){
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    .bodydiv{
+        width: 100%;
+        height: max-content;
+        background: #1B2230;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+    }
+
+    .navbar{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;      
+    }
+    
+    .toplogo{
+        margin-left: 5px;
+    }
+    
+    .rightnav{
+       display: flex;
+       margin-right: 5px;
+    }
+    
+    .rightnav li{
+        list-style-type: none;
+        margin-left: 40px;
+    }
+    
+    .rightnav a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .rightnav a:hover{
+        color: #6AC3C1;
+    }
+
+    .bodydiv1 img{
+        /* padding-bottom:50px; */
+        height: 300px;
+        width: 400px;
+    }
+
+
+    .bodydiv1{
+    margin-top:50px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;  
+    
+}
+
+innerbodydiv1{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin-top:200px;
+}
+
+
+.innerbodydiv1 h1{
+    width: 80%;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height:40px;
+}
+
+.innerbodydiv1 h2{
+    width: 80%;
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.5px;
+}
+
+.btn{
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(to left, #6AC3C1,#559EB8);
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 17.5px;
+    margin-top: 20px;
+    cursor: pointer;
+  
+}
+
+.btn:hover{
+    background-image:linear-gradient(to right, #6AC3C1,#559EB8);
+}
+
+.bodydiv2{
+    height: 1000px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+.inbodydiv2{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bodydiv2content{
+    margin-top: 30px;
+    width: 75%;
+    height: 100%;
+    padding: 20px;
+}
+
+.bodydiv2content img{
+    height:50px;
+}
+
+.bodydiv3{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+
+
+
+    
+}
